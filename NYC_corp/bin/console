@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require_relative "../lib/NYC_corp"
+
+NYCCorp::CLI.new.call
+
+
+require "irb"
+IRB.start(__FILE__)
